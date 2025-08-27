@@ -63,7 +63,6 @@ mawithin <- metagen(TE = yi,
 
 print(mawithin)
 
-
 # Perform meta-analysis for between-group comparison
 mabetween <- metagen(TE = yi, 
                     seTE = se,
@@ -243,6 +242,7 @@ power.analysis(d = 0.8, # Effect size
                n2 = 10, # Sample size at post- intervention
                p = 0.05, # Significance level
                heterogeneity = "moderate") # Expected heterogeneity
+
 
 
 
